@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nzy3d", "Nzy3d\Nzy3d.csproj", "{80908CD7-1774-42DD-AB7C-5FA703B67329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nzy3d.Winforms", "Nzy3d.Winforms\Nzy3d.Winforms.csproj", "{A5232127-16B8-4882-BBF1-9A7468A11EB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nzy3d.WinformsDemo", "Nzy3d.WinformsDemo\Nzy3d.WinformsDemo.csproj", "{3A1D3912-8F3E-4CD2-BEE6-E2D6CDB5CD4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F34EB91-D775-42A5-900D-CDC705A0C0E6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		LICENSE nzy3d-api.txt = LICENSE nzy3d-api.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nzy3d.Tests", "Nzy3d.Tests\Nzy3d.Tests.csproj", "{1DF7624B-417F-4E27-9663-B99FEB9AA27A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nzy3d.Wpf", "Nzy3d.Wpf\Nzy3d.Wpf.csproj", "{7D2A6768-104A-4D86-ABD6-9B795E2EA3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nzy3d.WpfDemo", "Nzy3d.WpfDemo\Nzy3d.WpfDemo.csproj", "{ABCD1A0A-B5B5-4F07-AF85-013767ACD1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80908CD7-1774-42DD-AB7C-5FA703B67329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80908CD7-1774-42DD-AB7C-5FA703B67329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80908CD7-1774-42DD-AB7C-5FA703B67329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80908CD7-1774-42DD-AB7C-5FA703B67329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5232127-16B8-4882-BBF1-9A7468A11EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5232127-16B8-4882-BBF1-9A7468A11EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5232127-16B8-4882-BBF1-9A7468A11EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5232127-16B8-4882-BBF1-9A7468A11EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1D3912-8F3E-4CD2-BEE6-E2D6CDB5CD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1D3912-8F3E-4CD2-BEE6-E2D6CDB5CD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1D3912-8F3E-4CD2-BEE6-E2D6CDB5CD4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1D3912-8F3E-4CD2-BEE6-E2D6CDB5CD4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DF7624B-417F-4E27-9663-B99FEB9AA27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF7624B-417F-4E27-9663-B99FEB9AA27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF7624B-417F-4E27-9663-B99FEB9AA27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF7624B-417F-4E27-9663-B99FEB9AA27A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2A6768-104A-4D86-ABD6-9B795E2EA3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2A6768-104A-4D86-ABD6-9B795E2EA3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2A6768-104A-4D86-ABD6-9B795E2EA3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2A6768-104A-4D86-ABD6-9B795E2EA3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCD1A0A-B5B5-4F07-AF85-013767ACD1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCD1A0A-B5B5-4F07-AF85-013767ACD1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCD1A0A-B5B5-4F07-AF85-013767ACD1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCD1A0A-B5B5-4F07-AF85-013767ACD1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B46C838-3A74-4C01-A6AD-0E4865C2C06A}
+	EndGlobalSection
+EndGlobal
